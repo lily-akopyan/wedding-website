@@ -212,6 +212,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
+    margin: 0;
 }
 
 .hero-bottom-flex-item {
@@ -228,7 +229,7 @@ h3 {
     gap: 20px;
 }
 
-.welcomeimg {
+.welcome-img {
     width: 700px;
 }
 
@@ -359,12 +360,21 @@ h3 {
 
     }
 
+    #welcome {
+        text-align: center;
+    }
+
+    .sign-off {
+        font-size: 47px;
+    }
+
     #schedule-faq,
     #directions,
     #dresscode {
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        padding: 40px;
     }
 
     .dir-item {
@@ -393,7 +403,7 @@ h3 {
     }
 
     .rsvp-form {
-        min-height: 1550px;
+        min-height: 1650px;
     }
 
     .hamburger {
@@ -418,6 +428,13 @@ h3 {
         display: flex;
     }
 
+    .contact-txt h3 {
+        font-size: 65px;
+    }
+
+    .hero-bottom-flex {
+        padding-top: 20px;
+    }
 }
 
 .fade-in {
